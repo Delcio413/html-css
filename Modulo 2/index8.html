@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Imadem dinamica</h1>
+    <picture>
+        <source media="(max-width: 750px )" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Imagens flexiveis">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Reproduzindo audio em</p>
+    <audio src="July - John Patitucci.mp3" controls autoplay></audio>
+    <audio preload="metadata" autoplay controls>
+        <source src="July - John Patitucci.mp3" type="audio/mpeg">
+    </audio>
+    <h1>Inserindo video</h1>
+    <p>Inserindo videos em HTMl</p>
+    <video src="pexels-rüveyda-16747409 (720p).mp4" width="200" height="100" controls poster="Imagens/foto-p.png"></video>
+    <video width="500" height="300" controls>
+        <source src="pexels-rüveyda-16747409 (720p).mp4" type="video/mp4">
+    </video>
+    <p><a href="index9.html" target="_self">Pagina anterior</a></p>
+</body>
+</html>

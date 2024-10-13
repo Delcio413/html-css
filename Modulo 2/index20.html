@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping tags</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color:white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            background-color: lightgray;;
+            padding: 5px;
+            margin:0px;
+            border: 1px solid black;
+             }
+             nav {
+                background-color: white;
+                padding: 5px;
+             }
+             nav > a {
+                margin: 5px;
+                text-decoration: none;
+             }
+             nav > a:hover {
+                text-decoration: underline;
+             }
+             main {
+                background-color:rgb(215, 222, 228);
+                padding: 5px;
+                margin: 0px;
+             }
+             h2 {
+                background-color: rgb(198, 194, 194);
+                width: 300px;
+             }
+             article > p {
+                background-color: rgb(153, 151, 151);
+                width: 300px;
+                color: white;
+             }
+             aside > p {
+                background-color: gray;
+                color: white;
+             }
+             footer {
+                background-color: black;
+                text-align: center;
+                color: white;
+                padding: 1px;
+                margin: 0px;
+             }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Menu</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Noticias</h2>
+            <article>
+                <p>Tecnologia</p>
+                <aside>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ut possimus sapiente ab consequatur placeat accusantium, corrupti nemo soluta, magni iste atque rem sint expedita ullam tempora culpa officiis nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quibusdam delectus quasi impedit maiores, error est reiciendis deleniti exercitationem quis magni eaque nisi voluptatum. Vel incidunt nihil aut reiciendis accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, ut! Molestiae, nobis provident fugit, voluptatem quo tempore, inventore eligendi explicabo cumque quibusdam quas quae vero adipisci neque atque mollitia! Fugiat! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam ab deleniti voluptatem tenetur? Beatae labore optio, magnam itaque unde repellat at, aperiam cupiditate quas minima eaque asperiores! Quaerat, magnam fugiat.</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Site desenvolvido por Délcio Hombe Quissanga
+    </footer>
+</body>
+</html>

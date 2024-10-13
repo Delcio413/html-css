@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de pseudo class</title>
+    <style>
+        div:hover > p {
+            display: block;
+            background-color: aqua;
+            width: 300px;
+            color: black;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>Passe o mouse por cima do texto</p>
+    <div>
+        Passe o moouse aqui...
+        <p>Texto escondido</p>
+    </div>
+    Fim do exercicio
+</body>
+</html>
